@@ -92,7 +92,7 @@ Laboratorio 4 Cripto Tampermonkey Cifrado y HTTP
     }
 })();
 ```
-#Imágenes en orden
+# Imágenes en orden
 ![Foto1](foro1.png)
 ![Foto2](foro2.PNG)
 ![Foto3](foro3.PNG)
