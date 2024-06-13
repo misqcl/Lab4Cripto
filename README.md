@@ -73,6 +73,7 @@ Laboratorio 4 Cripto Tampermonkey Cifrado y HTTP
         for (let i = 3; i < divsWithMxClass.length; i++) { //Cambiar el 3 al numero de mensajes a probar
             divsWithMxClass[i].parentNode.removeChild(divsWithMxClass[i]);
         }
+        divsWithMxClass = document.querySelectorAll('div[class^="M"]');
 */
         console.log("Los mensajes cifrados son: " + divsWithMxClass.length);
 
@@ -88,7 +89,7 @@ Laboratorio 4 Cripto Tampermonkey Cifrado y HTTP
         document.addEventListener('DOMContentLoaded', decryptAndPrintMessages);
     } else {
         decryptAndPrintMessages();
-    }
+    }
 })();
 ```
 #Imágenes en orden
@@ -110,3 +111,6 @@ Laboratorio 4 Cripto Tampermonkey Cifrado y HTTP
 ![Foto16](foro2a.PNG)
 ![Foto17](foro2b.PNG)
 ![Foto18](foro2c.PNG)
+#Screenshots Extra
+![Foto19](ss1.PNG)
+![Foto20](ss2.PNG)
